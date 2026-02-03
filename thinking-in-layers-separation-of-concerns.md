@@ -22,7 +22,8 @@ Business logic and domain rules form a third and often underrepresented concern 
 
 The final concern is side effects and external interaction. This layer handles communication with the outside world through APIs, persistence, analytics, or browser capabilities. Side effects introduce uncertainty and failure, so keeping them explicit and contained allows the rest of the system to remain predictable and stable.
 
-![Frontend separation of concerns diagram](./images/separation-of-concerns.png)
+![Frontend separation of concerns diagram](<img width="1024" height="1536" alt="Layers" src="https://github.com/user-attachments/assets/ebb3fb73-41b1-4bea-bf35-0e2fa69760ff" />
+)
 
 In the early stages of a product, these concerns often blend together, and that is completely natural. Over structuring too early can slow down learning and experimentation. However, as a system grows, allowing these concerns to remain entangled becomes costly. Clear separation makes change more local, reduces accidental coupling, and lowers the cognitive load required to understand what the system is doing.
 
