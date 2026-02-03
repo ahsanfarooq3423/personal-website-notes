@@ -1,3 +1,11 @@
+
+---
+title: "Thinking in Layers: Separation of Concerns in Frontend Systems"
+date: "2026-02-03"
+description: "A way of thinking about systems that grow without collapsing under their own weight."
+tags: ["frontend", "architecture", "separation-of-concerns"]
+---
+
 # Thinking in Layers: Separation of Concerns in Frontend Systems
 
 > *A way of thinking about systems that grow without collapsing under their own weight.*
