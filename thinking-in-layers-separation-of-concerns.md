@@ -5,7 +5,6 @@ description: "A way of thinking about systems that grow without collapsing under
 tags: ["frontend", "architecture", "separation-of-concerns", "systems-thinking"]
 ---
 # Thinking in Layers: Separation of Concerns in Frontend Systems
-A way of thinking about systems that grow without collapsing under their own weight.
 
 > *A way of thinking about systems that grow without collapsing under their own weight.*
 
