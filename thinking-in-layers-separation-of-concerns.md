@@ -6,8 +6,6 @@ tags: ["frontend", "architecture", "separation-of-concerns", "systems-thinking"]
 ---
 # Thinking in Layers: Separation of Concerns in Frontend Systems
 
-> *A way of thinking about systems that grow without collapsing under their own weight.*
-
 Frontend systems rarely become painful and costly to change because of missing functionality. More often, they become difficult because the system itself grows hard to reason about. Over time, rendering logic starts knowing too much about data fetching, business rules quietly creep into components, and side effects appear in places where they are least expected. The code still works, but change becomes risky, and understanding the system requires too much context.
 
 This is less about tools or frameworks and more about architectural thinking. One useful mental model is to view and evolve frontend systems through the lens of separation of concerns. Not as strict layers enforced from day one, but as conceptual boundaries that emerge as complexity grows. Most mature frontend systems, regardless of framework, naturally converge toward four core concerns: how things are rendered, how data and state are owned, where business rules live, and how the system interacts with the outside world.
